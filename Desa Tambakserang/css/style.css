@@ -259,11 +259,9 @@ body {
   width: 100%;
   height: 30%;
   bottom: 0;
-  background: linear-gradient(
-    0deg,
-    rgba(1, 1, 3) 6%,
-    rgba(255, 255, 255, 0) 50%
-  );
+  background: linear-gradient(0deg,
+      rgba(1, 1, 3) 6%,
+      rgba(255, 255, 255, 0) 50%);
 }
 
 .hero .content {
@@ -288,6 +286,18 @@ body {
   line-height: 1.4;
   font-weight: 300;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+.about .row .content ol {
+  margin-bottom: 0.8 rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.3;
+}
+
+.misi-list {
+  padding-left: 20px;
+  /* Menambahkan padding untuk membuat daftar bernomor sejajar dengan kalimat "Visi" dan "Misi" */
 }
 
 .hero .content .cta {
@@ -413,6 +423,7 @@ body {
   font-weight: 200;
   line-height: 1.6;
 }
+
 .products .row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -644,6 +655,7 @@ footer .credit a {
   .whatsapp-icon {
     margin-top: 10px;
   }
+
   .whatsapp_float {
     width: 40px;
     height: 40px;
@@ -770,7 +782,8 @@ footer .credit a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%; /* atau tentukan tinggi yang sesuai dengan kebutuhan */
+  height: 100%;
+  /* atau tentukan tinggi yang sesuai dengan kebutuhan */
 }
 
 .about-img img {
