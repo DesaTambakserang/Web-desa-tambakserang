@@ -361,14 +361,6 @@ body {
   line-height: 1.3;
 }
 
-
-/* section#about .row .content p {
-  margin-bottom: 0.8 rem;
-  font-size: 1.2rem;
-  font-weight: 200;
-  line-height: 1.3;
-} */
-
 .about .row .content ol li {
   margin-bottom: 0.8 rem;
   font-size: 1.2rem;
@@ -428,19 +420,47 @@ body {
 }
 
 /* Product Section */
+.products h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.products h3 {
+  text-align: left;
+  max-width: 70rem;
+  margin: auto;
+  font-size: 1.4rem;
+}
+
 .products h6 {
   text-align: center;
-  font-size: 1.2rem !important;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
 .products p {
-  text-align: center;
+  text-align: left;
   max-width: 70rem;
   margin: auto;
   font-size: 1.2rem;
   font-weight: 200;
   line-height: 1.6;
+}
+
+.products p,
+.products ol {
+  text-align: left;
+  max-width: 70rem;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.6;
+}
+
+.products ol {
+  padding-left: 20px;
+  list-style-type: decimal;
 }
 
 .products .row {
@@ -506,10 +526,20 @@ body {
   font-weight: bold;
 }
 
+
 /* Contact Section */
 .contact .row form p {
   padding: 0.3rem 1rem;
   text-align: center;
+}
+
+.contact p {
+  text-align: left;
+  max-width: 70rem;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.6;
 }
 
 .contact .row {
